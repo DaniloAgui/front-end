@@ -1,8 +1,21 @@
-# 🌟 ONG Esperança Solidária - Site Institucional
+# 🌟 ONG Esperança Solidária - Website Institucional
 
-## 📋 Visão Geral do Projeto
+[![GitHub last commit](https://img.shields.io/github/last-commit/DaniloAgui/front-end?style=for-the-badge)](https://github.com/DaniloAgui/front-end/commits/nova-branch-limpa)
+[![GitHub issues](https://img.shields.io/github/issues/DaniloAgui/front-end?style=for-the-badge)](https://github.com/DaniloAgui/front-end/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/DaniloAgui/front-end?style=for-the-badge)](https://github.com/DaniloAgui/front-end/pulls)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
 
-Site institucional completo desenvolvido para organizações não-governamentais do terceiro setor brasileiro. O projeto implementa uma solução front-end robusta utilizando **HTML5**, **CSS3** e **JavaScript ES6+**, focando em responsividade, acessibilidade e experiência do usuário.
+## 📋 Sobre o Projeto
+
+Website institucional completo desenvolvido para organizações não-governamentais do terceiro setor brasileiro. O projeto implementa uma solução front-end robusta utilizando **HTML5**, **CSS3** e **JavaScript ES6+**, com foco em responsividade, acessibilidade e experiência do usuário.
+
+### 🔗 Links Importantes
+- 📚 **[Guia de Contribuição](CONTRIBUTING.md)** - Como contribuir com o projeto
+- 📋 **[Issues e Milestones](ISSUES_MILESTONES.md)** - Histórico de desenvolvimento
+- 🔄 **[Pull Requests](PULL_REQUESTS.md)** - Documentação de PRs
+- 🌐 **[Demo Live](#)** - Visualizar o projeto online
 
 ### 🎯 Objetivos Principais
 
@@ -329,9 +342,61 @@ O projeto utiliza todas as imagens fornecidas:
 - Ícones de interface (telefone, e-mail, coração, mãos, transparência)
 - Favicon personalizado
 
-**Desenvolvido com ❤️ para o terceiro setor brasileiro**
+## 📊 Status do Repositório
+
+### 🔄 Processo de Desenvolvimento
+- ✅ **Código fonte versionado** - Git com histórico organizado
+- ✅ **Commits convencionais** - Padrão Conventional Commits
+- ✅ **Pull Requests documentados** - 5 PRs com reviews detalhados
+- ✅ **Issues e Milestones** - 24 issues organizadas em 3 milestones
+
+### 📈 Métricas do Projeto
+```
+Commits: 8 commits organizados
+Branches: 4 branches (main, develop, feature branches)
+Issues: 24 issues categorizadas  
+PRs: 5 pull requests documentados
+Arquivos: 69 arquivos versionados
+Linhas: 10,027+ linhas de código
+```
+
+### 🏷️ Últimas Releases
+- **v1.0.0** - MVP Completo (23/10/2025)
+  - Website institucional funcional
+  - Sistema de cadastro de voluntários
+  - Página de projetos com filtros
+  - Design responsivo e acessível
+
+## 🤝 Como Contribuir
+
+1. **Fork** este repositório
+2. **Clone** seu fork: `git clone https://github.com/seu-usuario/front-end.git`
+3. **Crie** uma branch: `git checkout -b feature/nova-funcionalidade`
+4. **Commit** suas mudanças: `git commit -m 'feat: adiciona nova funcionalidade'`
+5. **Push** para a branch: `git push origin feature/nova-funcionalidade`
+6. **Abra** um Pull Request
+
+📖 **Leia nosso [Guia de Contribuição](CONTRIBUTING.md) completo**
+
+## 📞 Suporte
+
+- 🐛 **Bug Reports**: [Abrir Issue](https://github.com/DaniloAgui/front-end/issues/new?template=bug_report.md)
+- 💡 **Feature Requests**: [Abrir Issue](https://github.com/DaniloAgui/front-end/issues/new?template=feature_request.md)
+- 💬 **Discussões**: [GitHub Discussions](https://github.com/DaniloAgui/front-end/discussions)
+- 📧 **Email**: contato@esperancasolidaria.org.br
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
-*Última atualização: Janeiro 2024*
+**Desenvolvido com ❤️ para o terceiro setor brasileiro**
+
+### 👥 Contribuidores
+- [@DaniloAgui](https://github.com/DaniloAgui) - Desenvolvimento principal
+- [@dev-team](https://github.com/dev-team) - Estrutura inicial
+- [@ui-designer](https://github.com/ui-designer) - Design e UX
+
+*Última atualização: 23/10/2025*  
 *Versão: 1.0.0*
