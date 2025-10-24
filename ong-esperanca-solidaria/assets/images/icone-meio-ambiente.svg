@@ -1,0 +1,51 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradArvore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#28a745;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#20c997;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#17a2b8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradTronco" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="gradTerra" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8b7355;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Terra/Base -->
+  <ellipse cx="10" cy="17" rx="8" ry="2" fill="url(#gradTerra)" opacity="0.8"/>
+  
+  <!-- Tronco -->
+  <rect x="9" y="12" width="2" height="6" fill="url(#gradTronco)" rx="0.3"/>
+  
+  <!-- Copa da árvore (3 círculos sobrepostos) -->
+  <circle cx="8" cy="8" r="3" fill="url(#gradArvore)" opacity="0.9"/>
+  <circle cx="12" cy="8" r="3" fill="url(#gradArvore)" opacity="0.9"/>
+  <circle cx="10" cy="6" r="3" fill="url(#gradArvore)"/>
+  
+  <!-- Folhas extras pequenas -->
+  <circle cx="6" cy="10" r="1.5" fill="#20c997" opacity="0.7"/>
+  <circle cx="14" cy="10" r="1.5" fill="#20c997" opacity="0.7"/>
+  <circle cx="10" cy="4" r="1" fill="#17a2b8" opacity="0.8"/>
+  
+  <!-- Sol pequeno -->
+  <circle cx="15" cy="4" r="1.5" fill="#ffc107" opacity="0.8"/>
+  <path d="M15 1 L15 2 M17.5 4 L16.5 4 M15 7 L15 6 M12.5 4 L13.5 4 M16.5 2.5 L16 3 M16.5 5.5 L16 5 M13.5 2.5 L14 3 M13.5 5.5 L14 5" stroke="#ffc107" stroke-width="0.5" opacity="0.6"/>
+  
+  <!-- Nuvem pequena -->
+  <ellipse cx="4" cy="3" rx="1.5" ry="0.8" fill="rgba(255,255,255,0.8)"/>
+  <ellipse cx="3" cy="3.5" rx="1" ry="0.6" fill="rgba(255,255,255,0.8)"/>
+  <ellipse cx="5" cy="3.5" rx="1" ry="0.6" fill="rgba(255,255,255,0.8)"/>
+  
+  <!-- Efeitos de brilho -->
+  <circle cx="9" cy="6" r="0.4" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="11" cy="7" r="0.3" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="8" cy="9" r="0.2" fill="rgba(255,255,255,0.5)"/>
+  
+  <!-- Pequenas estrelas/partículas -->
+  <path d="M16 12 L16.3 12.3 L16 12.6 L15.7 12.3 Z" fill="#20c997" opacity="0.6"/>
+  <path d="M5 12 L5.3 12.3 L5 12.6 L4.7 12.3 Z" fill="#28a745" opacity="0.6"/>
+</svg>

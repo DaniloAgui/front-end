@@ -1,0 +1,35 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradSaude" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#28a745;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#20c997;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradCruz" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc3545;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c82333;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Estetoscópio -->
+  <path d="M3 8 Q3 6 5 6 Q7 6 7 8 L7 12" stroke="url(#gradSaude)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <circle cx="5" cy="6" r="1.5" fill="none" stroke="url(#gradSaude)" stroke-width="1"/>
+  <circle cx="7" cy="13" r="1.5" fill="url(#gradSaude)"/>
+  
+  <!-- Cruz médica -->
+  <rect x="11" y="5" width="6" height="10" rx="2" fill="rgba(255,255,255,0.9)" stroke="url(#gradCruz)" stroke-width="0.5"/>
+  
+  <!-- Cruz vermelha -->
+  <rect x="13" y="7" width="2" height="6" fill="url(#gradCruz)" rx="0.2"/>
+  <rect x="12" y="9" width="4" height="2" fill="url(#gradCruz)" rx="0.2"/>
+  
+  <!-- Coração pequeno -->
+  <path d="M4 3 C3 2 1 3 2 5 C3 6 4 5 4 5 C4 5 5 6 6 5 C7 3 5 2 4 3 Z" fill="#ff6b6b" opacity="0.8"/>
+  
+  <!-- Pulsação -->
+  <path d="M8 16 L9 14 L10 18 L11 10 L12 16" stroke="#007bff" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Brilhos -->
+  <circle cx="6" cy="4" r="0.3" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="13" cy="8" r="0.4" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="15" cy="12" r="0.2" fill="rgba(255,255,255,0.5)"/>
+</svg>

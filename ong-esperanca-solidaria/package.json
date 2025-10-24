@@ -1,0 +1,44 @@
+{
+  "name": "ong-esperanca-solidaria",
+  "version": "1.0.0",
+  "description": "Site institucional completo para ONG do terceiro setor brasileiro",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=8080 --host=localhost --open=/",
+    "dev": "live-server --port=3000 --host=localhost --open=/ --watch=assets/",
+    "build": "echo 'Projeto front-end puro - sem processo de build necessário'",
+    "test": "echo 'Testes manuais - veja README.md para detalhes'",
+    "validate-html": "echo 'Use W3C Markup Validator para validar HTML'",
+    "validate-css": "echo 'Use W3C CSS Validator para validar CSS'"
+  },
+  "keywords": [
+    "ong",
+    "terceiro-setor",
+    "voluntariado",
+    "html5",
+    "css3",
+    "javascript",
+    "responsivo",
+    "acessibilidade",
+    "brasil"
+  ],
+  "author": "Desenvolvido para o terceiro setor brasileiro",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/ong-esperanca-solidaria.git"
+  },
+  "homepage": "https://seu-usuario.github.io/ong-esperanca-solidaria",
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ],
+  "config": {
+    "port": 8080,
+    "host": "localhost"
+  }
+}
