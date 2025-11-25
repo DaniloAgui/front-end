@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="flexGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Círculo de fundo -->
+  <circle cx="24" cy="24" r="22" fill="url(#flexGradient)" opacity="0.1"/>
+  
+  <!-- Relógio representando flexibilidade de horário -->
+  <g transform="translate(24,24)">
+    <!-- Base do relógio -->
+    <circle cx="0" cy="0" r="12" fill="none" stroke="url(#flexGradient)" stroke-width="2"/>
+    
+    <!-- Marcações das horas -->
+    <g stroke="url(#flexGradient)" stroke-width="1" opacity="0.7">
+      <line x1="0" y1="-12" x2="0" y2="-10"/>
+      <line x1="12" y1="0" x2="10" y2="0"/>
+      <line x1="0" y1="12" x2="0" y2="10"/>
+      <line x1="-12" y1="0" x2="-10" y2="0"/>
+    </g>
+    
+    <!-- Ponteiros flexíveis (curvados) -->
+    <g fill="none" stroke="url(#flexGradient)" stroke-width="2" stroke-linecap="round">
+      <!-- Ponteiro das horas (curvo) -->
+      <path d="M0,0 Q-3,-3 -6,-6"/>
+      <!-- Ponteiro dos minutos (curvo) -->
+      <path d="M0,0 Q5,-5 8,-8"/>
+    </g>
+    
+    <!-- Centro do relógio -->
+    <circle cx="0" cy="0" r="1.5" fill="url(#flexGradient)"/>
+    
+    <!-- Setas indicando flexibilidade -->
+    <g fill="url(#flexGradient)" opacity="0.8">
+      <!-- Seta curva superior -->
+      <path d="M-14,-8 Q-16,-12 -12,-14 Q-8,-12 -10,-8 L-12,-9 Z"/>
+      <!-- Seta curva inferior -->
+      <path d="M14,8 Q16,12 12,14 Q8,12 10,8 L12,9 Z"/>
+    </g>
+    
+    <!-- Texto "24h" pequeno -->
+    <text x="0" y="18" text-anchor="middle" fill="url(#flexGradient)" font-family="Inter, sans-serif" font-size="6" font-weight="600">24h</text>
+  </g>
+</svg>

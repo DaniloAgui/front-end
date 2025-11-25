@@ -1,0 +1,22 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradVoluntario" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#28a745;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#20c997;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Pessoa -->
+  <circle cx="8" cy="4" r="2.5" fill="url(#gradVoluntario)"/>
+  <path d="M4 14 Q4 10 8 10 Q12 10 12 14 Z" fill="url(#gradVoluntario)"/>
+  
+  <!-- Colete/uniforme -->
+  <rect x="6" y="8" width="4" height="4" fill="rgba(255,255,255,0.3)" rx="0.5"/>
+  
+  <!-- Cruz no colete -->
+  <rect x="7.5" y="9" width="1" height="2" fill="#dc3545"/>
+  <rect x="7" y="9.5" width="2" height="1" fill="#dc3545"/>
+  
+  <!-- Brilho -->
+  <circle cx="7" cy="3" r="0.5" fill="rgba(255,255,255,0.4)"/>
+</svg>
